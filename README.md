@@ -13,5 +13,7 @@ x-ui面板每次断开都会将本村连接写入数据库, 实现历史流量�
 ./xqt -s 127.0.0.1:62789 -ptn "inbound>>>inbound-48426>>>traffic>>>downlink"
 ```
 
--s 指定api入口的地址及端口, 需要在配置文件中开启api, 详见[https://xtls.github.io/config/api.html#apiobject](https://xtls.github.io/config/api.html#apiobject)
--ptn 指定查询语句, 详见 [https://xtls.github.io/config/stats.html](https://xtls.github.io/config/stats.html)
+-s 指定api入口的地址及端口, 需要在配置文件中开启api, 详见[xray官方文档](https://xtls.github.io/config/api.html#apiobject)
+
+
+-ptn 指定查询语句, 详见 [xray官方文档](https://xtls.github.io/config/stats.html)
