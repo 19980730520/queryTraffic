@@ -17,3 +17,6 @@ x-ui面板每次断开都会将本村连接写入数据库, 实现历史流量�
 
 
 -ptn 指定查询语句, 详见 [xray官方文档](https://xtls.github.io/config/stats.html)
+
+
+本项目的实际意义是记录一下我与go的第一次接触
